@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: KumbhSans-Bold;
+    src: url(../fonts/KumbhSans-Bold.ttf);
+}
+@font-face {
+    font-family: KumbhSans-Regular;
+    src: url(../fonts/KumbhSans-Regular.ttf);
+}
+/* .container{
+ padding: 20px 20px 60px 60px;
+} */
+.above-easybank{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    padding: 20px 20px 60px 60px;
+}
+.inter-nav{
+    font-family:KumbhSans-Regular;
+    color: #9597A5;
+    word-spacing: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+.nav-home:hover{
+    color: #30C88F;
+}
+.nav-about:hover{ color: #30C88F;}
+.nav-contact:hover{ color: #30C88F;}
+.nav-blg:hover{ color: #30C88F;}
+.nav-careers:hover{ color: #30C88F;}
+.nav-about:hover{ color: #30C88F;}
+
+.Request-Invite{
+    
+    background: none;
+    background-color:#2D314D;
+    border-radius: 40px;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    font-size: 10px;
+}
+.Request-Invite:hover{
+    color: white;
+    background-color: #30C88F;
+}
+
+.explanation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px 20px 60px 60px;
+}
+.text-explain{
+    margin-top: 200px;
+    
+    justify-content: center;
+}
+.title-explain{
+  font-family:KumbhSans-Regular ;
+  font-size: 40px;
+  color: #2D314D;
+}
+.explain-body{
+    color: #9597A5;
+    font-family: KumbhSans-Regular;
+    line-height: 25px;
+    margin-bottom: 30px;
+    justify-content: right;
+}
+.helping-iqon{
+    display: flex;
+    justify-content: center;
+  margin-bottom: 90px;
+}
+.explain-iqon{
+    color: #2D314D;
+    font-family:KumbhSans-Regular ;
+    font-size:15px;
+}
+.why-use-iqon{
+    font-size:10px;
+    margin-top: 17px;
+    font-family:KumbhSans-Regular ;
+    line-height: 10px;
+    color: #9597A5;
+}
+.contain-img{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.Why-choose-text{
+    margin-bottom: 90px;
+}
+.tittle-Latest-Articles{
+    color: #2D314D;
+    font-family:KumbhSans-Regular ;
+    font-size:30px;
+    margin-top: px;
+    margin-bottom: 30px;
+   
+}
+.done-py{
+    font-family:KumbhSans-Regular ;
+    font-size:6px;
+    color: #9597A5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tips{
+    color: #2D314D;
+    font-family:KumbhSans-Regular ;
+    font-size:18px;
+    margin-bottom: 10px;
+}
+.invence{
+    font-family:KumbhSans-Regular ;
+    font-size:10px;
+    color: #9597A5;
+    line-height:15px;
+}
+.final-helps{
+    display: flex;
+    justify-content: space-between;
+}
+.final-proect{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 60px 60px;
+}
+.link-to-easybank{
+    direction: rtl;
+}
+.final-proect{
+    margin-top: 140px;
+    background-color: #2D314D;
+ 
+    height: 150px;
+}
+.finallogo{
+margin-left: 40px;  
+    margin-top: 30px;
+}
+.final-help{
+    font-family:KumbhSans-Regular ;
+    font-size: 10px;
+    line-height: 7px;
+    color: white;
+    margin-top: 32px;
+    margin-left: 70px;
+}
+.final-help:hover{
+    color: #4a5ad1;
+}
+.final-Request-Invite{
+    background: none;
+    background-color: #30C88F;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 8px 10px 8px;
+    border: none;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.final-Request-Invite:hover{
+    background-color: #98c7b6;
+    color: white;
+}
+.fa-money-check-alt{
+    background-color:#2D314D;
+    color: white;
+    border-radius: 80px;
+    padding: 12px 12px 10px 10px;
+    margin-bottom: 30px;
+}
+.fa-comments-dollar{
+    background-color:#2D314D;
+    color: white;
+    border-radius: 80px;
+    padding: 12px 12px 10px 10px;
+    margin-bottom: 30px;
+}
+.fa-user-cog{
+    background-color:#2D314D;
+    color: white;
+    border-radius: 80px;
+    padding: 12px 12px 10px 10px;
+    margin-bottom: 30px;
+}
+.fa-piggy-bank{
+    background-color:#2D314D;
+    color: white;
+    border-radius: 80px;
+    padding: 12px 12px 10px 10px;
+    margin-bottom: 30px;
+}
+.fa-facebook-square{
+    border: none;
+    color: #ffffff;  
+}
+.fa-twitter{
+    border: none;
+    color: #ffffff;
+
+}
+.fa-pinterest-p{
+    border: none;
+    color: #ffffff;
+}
+.social-iqon{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.Latest-Articles-container{
+    padding: 20px 20px 60px 60px;  
+}
+.Why-choose{background-color: #F4F5F7;
+padding-bottom: 60px;
+padding: 20px 20px 60px 60px;
+}
